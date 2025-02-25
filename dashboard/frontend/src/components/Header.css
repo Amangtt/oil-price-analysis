@@ -6,28 +6,6 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
 }
 
-/* Navigation Styles */
-nav {
-    display: flex; /* Use flexbox for layout */
-    justify-content: center; /* Center items */
-    background-color: #e0e0e0; /* Background for navigation */
-    padding: 10px 0; /* Padding for nav */
-}
-
-nav a {
-    margin: 0 15px; /* Margin around links */
-    text-decoration: none; /* Remove underline */
-    color: #007BFF; /* Link color */
-    padding: 10px 15px; /* Padding for links */
-    border-radius: 5px; /* Rounded corners */
-    transition: background 0.3s; /* Smooth background transition */
-}
-
-nav a:hover {
-    background: #0056b3; /* Hover effect */
-    color: #fff; /* Change text color on hover */
-}
-
 /* Main Content Styles */
 main {
     flex: 1; /* Flex to take available space */
