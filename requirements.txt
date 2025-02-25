@@ -1,0 +1,8 @@
+pandas
+pytest
+seaborn
+matplotlib
+gdown
+ipython
+tenserflow
+sklearn
