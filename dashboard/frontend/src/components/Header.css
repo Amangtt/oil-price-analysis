@@ -1,0 +1,54 @@
+header {
+    background: #007BFF; /* Header background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Increase padding for better appearance */
+    text-align: center; /* Center align text */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+/* Navigation Styles */
+nav {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items */
+    background-color: #e0e0e0; /* Background for navigation */
+    padding: 10px 0; /* Padding for nav */
+}
+
+nav a {
+    margin: 0 15px; /* Margin around links */
+    text-decoration: none; /* Remove underline */
+    color: #007BFF; /* Link color */
+    padding: 10px 15px; /* Padding for links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+nav a:hover {
+    background: #0056b3; /* Hover effect */
+    color: #fff; /* Change text color on hover */
+}
+
+/* Main Content Styles */
+main {
+    flex: 1; /* Flex to take available space */
+    padding: 20px; /* Padding for content */
+    max-width: 800px; /* Maximum width */
+    margin: 20px auto; /* Center content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+h2 {
+    margin-bottom: 20px; /* Margin below header */
+    font-size: 24px; /* Font size */
+    text-align: center; /* Center align header text */
+    color: #333; /* Header text color */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav a {
+        margin: 5px; /* Adjust margin for smaller screens */
+        font-size: 14px; /* Smaller font size */
+    }
+}
